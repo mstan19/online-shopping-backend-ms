@@ -34,14 +34,14 @@ Product.init(
         isNumber:true
       }
     },
-    category_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: "Category",
-        key: "id",
-    }
-      // References the Category model's id.
-    }
+    // category_id: {
+    //   type: DataTypes.INTEGER,
+    // //   references: {
+    // //     model: "Category",
+    // //     key: "id"
+    // // }
+    //   // References the Category model's id.
+    // }
   },
   {
     sequelize,

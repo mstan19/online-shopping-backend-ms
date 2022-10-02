@@ -5,6 +5,8 @@ const Product = require('./models/Product.js');
 const ProductTag = require('./models/ProductTag.js');
 const Tag = require('./models/Tag.js');
 const sequelize = require('sequelize');
+const sequelizeConnection = require('./config/connection');
+
 
 // import sequelize connection
 
@@ -17,7 +19,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(routes);
 
 // sync sequelize models to the database, then turn on the server
-sequelize.sync({ force: true }).then(() => {
+sequelizeConnection.sync({ force: true }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
 });
 
