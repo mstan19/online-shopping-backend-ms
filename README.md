@@ -11,20 +11,22 @@
 -[Depolyment](#depolyment)
 
 ## Description of the Project
-This application can dynamically update the company's database, which it can view all departments, roles, and employees, add/delete departments, roles, and employees along with update roles. This application uses Node.js, MYSQL, and Inquirer (verison 8.2.4) was used to run the application. This application requires you to understand package.json and its node_modules. In additon to that, gitignore file is important to use so certain folders and files are not upload to GitHub. For example, node_modules should not be uploaded to GitHub since this folder gets created during the installition process. Lastly, this project stands out since this application is in interactive database that can update the company's database. In addition, this application can view the department's budget.
+This application can dynamically 
+
+
+update the company's database, which it can view all departments, roles, and employees, add/delete departments, roles, and employees along with update roles. This application uses Node.js, MYSQL, and Inquirer (verison 8.2.4) was used to run the application. This application requires you to understand package.json and its node_modules. In additon to that, gitignore file is important to use so certain folders and files are not upload to GitHub. For example, node_modules should not be uploaded to GitHub since this folder gets created during the installition process. Lastly, this project stands out since this application is in interactive database that can update the company's database. In addition, this application can view the department's budget.
 
 
 ## Installation
-To create this project, follow these several steps. This application uses Node.js, MYSQL (version 2.3.3), and Inquirer (verison 8.2.4). Step one, download Node.js. Next go to the terminal of the index.js and type this command ```npm install```. This creates package.json file and inquirer@8.2.4. 
+To create this project, follow these several steps. This application uses Node.js, MYSQL (version 2.3.3), dotev (verison 8.2.0), and Express (verison 4.17.1). Step one, download Node.js. Next go to the terminal of the index.js and type this command ```npm install```. This creates package.json file and its dependencies. 
 
 
 ## Usage
-To use this application, open the terminal, respective to the file. Run the ```node index.js``` in the terminal. Then, answer the following questions. Finally, the interactive database can now add/delete departments, roles, and employees along with update roles. 
+To use this application, open the terminal, respective to the file. Run the ```npm run seed``` to populate the data tables with its respective seeds. Finally, type this command in the terminal ```node server.js``` to run the application. This allows the user to perform any HTTP method on categories, products, and tags.
 
 This is what the index.html will look like when deployed.
 
-![Employee Tracker mock-up](./assets/images/employee-tracker-mock-up.png)
-![Employee Tracker design database](./assets/images/design_db_schemas.pngimages/)
+![Online Shopping Backend mock-up](./assets/images/Online-shopping-mockup.png)
 
 ## License
 This application does not require any licenses.
@@ -41,8 +43,8 @@ For more information about this application, please email me at melissastan91@gm
 
 ## Video
 Click on this link for the demo of this application.
-https://drive.google.com/file/d/1gdrNIA8U-mXSh3SVHmhqd6YUXo2FDYAL/view
+
 
 ## Depolyment
 Click on this link for deployed application
-https://github.com/mstan19/employee-tracker-ms
+https://github.com/mstan19/online-shopping-backend-ms
