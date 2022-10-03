@@ -11,11 +11,7 @@
 -[Depolyment](#depolyment)
 
 ## Description of the Project
-This application can dynamically 
-
-
-update the company's database, which it can view all departments, roles, and employees, add/delete departments, roles, and employees along with update roles. This application uses Node.js, MYSQL, and Inquirer (verison 8.2.4) was used to run the application. This application requires you to understand package.json and its node_modules. In additon to that, gitignore file is important to use so certain folders and files are not upload to GitHub. For example, node_modules should not be uploaded to GitHub since this folder gets created during the installition process. Lastly, this project stands out since this application is in interactive database that can update the company's database. In addition, this application can view the department's budget.
-
+The purpose of the application is to build the back end for an e-commerce site. This application can dynamically complete the following HTTP requests: get, post, put, and delete for categories, products, and tags. This application uses Node.js, MYSQL, DotEv and Express to run the application. Dotev is used to protect developer's passwords by placing their passwords in environment variables in .env file. This application requires you to understand package.json and its node_modules. In additon to that, gitignore file is important to use so certain folders and files are not upload to GitHub. For example, node_modules should not be uploaded to GitHub since this folder gets created during the installition process. Lastly, this project stands out since the application has its own server and can effectively retrieve data from the e-commerce database.
 
 ## Installation
 To create this project, follow these several steps. This application uses Node.js, MYSQL (version 2.3.3), dotev (verison 8.2.0), and Express (verison 4.17.1). Step one, download Node.js. Next go to the terminal of the index.js and type this command ```npm install```. This creates package.json file and its dependencies. 
